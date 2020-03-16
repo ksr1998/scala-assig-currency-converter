@@ -9,6 +9,6 @@ RUN \
 RUN apt-get install xml2
 WORKDIR /JSONparser
 ADD . /JSONparser
-CMD sbt run
+CMD ./deployer.sh
 
 
